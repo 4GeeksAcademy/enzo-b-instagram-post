@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10vh auto ;
+    width: 40%;
+}
+.header{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+.name{
+    width: 100vh;
+}
+
+.header strong, .header img, .header i {
+    padding-right: 10px;
+}
+
+.profile {
+    width: 30px;
+    height: 30px;
+}
+
+.fa-solid.fa-ellipsis-vertical {
+    margin-left: 10vh;
+    font-size: 35px;
+}
+
+.img img {
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+.tail{
+    padding:10px
+}
